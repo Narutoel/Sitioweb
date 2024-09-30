@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INEB-D</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1A73E8;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 32px;
+            font-family: 'Playfair Display', serif; /* Fuente más sofisticada para el título */
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif; /* Fuente para el menú */
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .comments, .posts, .new-post {
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .gallery {
+            text-align: center;
+        }
+        footer {
+            background-color: #1A73E8;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            font-family: 'Roboto', sans-serif; /* Fuente para el pie de página */
+        }
+        .post-content {
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .post-content h2 {
+            color: #1A73E8;
+            font-family: 'Playfair Display', serif; /* Fuente para subtítulos */
+        }
+        .post-content p {
+            font-size: 18px;
+            color: #333;
+            font-family: 'Roboto', sans-serif; /* Fuente para párrafos */
+        }
+        .about-section {
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about-section h3 {
+            color: #1A73E8;
+            font-family: 'Playfair Display', serif; /* Fuente para subtítulos */
+        }
+        .new-post form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .new-post label {
+            display: block;
+            margin-bottom: 10px;
+            font-family: 'Roboto', sans-serif; /* Fuente para etiquetas de formulario */
+        }
+        .new-post input[type="text"],
+        .new-post textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .new-post input[type="submit"] {
+            background-color: #1A73E8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .new-post input[type="submit"]:hover {
+            background-color: #0f5bb5;
+        }
+        .comments-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .comments-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-family: 'Roboto', sans-serif; /* Fuente para etiquetas de formulario */
+        }
+        .comments-form input[type="text"],
+        .comments-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .comments-form input[type="submit"] {
+            background-color: #1A73E8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .comments-form input[type="submit"]:hover {
+            background-color: #0f5bb5;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    INEB-D - Instituto Nacional de Educación Básica y Diversificada
+</header>
+
+<nav>
+    <a href="#home">Inicio</a>
+    <a href="#posts">Publicaciones</a>
+    <a href="#gallery">Galería</a>
+    <a href="#about">Sobre Nosotros</a>
+    <a href="#comments">Comentarios</a> <!-- Enlace a comentarios -->
+</nav>
+
+<div class="container">
+    <!-- Publicaciones -->
+    <section id="posts" class="posts">
+        <h2>Publicaciones</h2>
+        
+        <!-- Información sobre la Institución -->
+        <div class="post-content">
+            <h2>Instituto Nacional de Educación Básica y Diversificada Sergio Leonel Celis Navas J.V</h2>
+            <p><strong>Descripción:</strong></p>
+            <p>El Instituto Nacional de Educación Básica y Diversificada Sergio Leonel Celis Navas J.V. es una institución educativa comprometida con la formación integral de los estudiantes en un entorno de excelencia académica, social y humana. Su misión es proporcionar una educación de calidad, inclusiva y equitativa que prepare a los jóvenes para enfrentar los desafíos del mundo moderno, promoviendo valores como la responsabilidad, el respeto y la solidaridad.</p>
+            <p><strong>Visión:</strong></p>
+            <p>Ser una institución educativa de referencia a nivel nacional en la formación de estudiantes con habilidades técnicas y humanas que contribuyan al desarrollo social y económico del país, mediante un proceso de aprendizaje continuo y adaptado a las necesidades del siglo XXI.</p>
+            <p><strong>Objetivos:</strong></p>
+            <ul>
+                <li>Brindar una educación diversificada que permita a los estudiantes desarrollar sus talentos y habilidades.</li>
+                <li>Fomentar un ambiente de respeto, inclusión y equidad dentro de la comunidad educativa.</li>
+                <li>Promover el desarrollo de competencias técnicas y académicas para la inserción en el mercado laboral y en la vida social.</li>
+            </ul>
+        </div>
+
+        <!-- Módulo para nuevas publicaciones -->
+        <div class="new-post">
+            <h3>Añadir Nueva Publicación</h3>
+            <form>
+                <label for="post-title">Título de la Publicación:</label>
+                <input type="text" id="post-title" name="post-title" required>
+                
+                <label for="post-content">Contenido de la Publicación:</label>
+                <textarea id="post-content" name="post-content" rows="4" required></textarea>
+                
+                <input type="submit" value="Publicar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section id="about" class="about-section">
+        <h3>Sobre el Instituto</h3>
+        <p>El Instituto Nacional de Educación Básica y Diversificada Sergio Leonel Celis Navas J.V. fue fundado con el objetivo de ofrecer una educación accesible y de calidad para jóvenes de diferentes sectores sociales. Con un enfoque integral, la institución combina el desarrollo académico con actividades extracurriculares para garantizar una formación sólida que prepare a los estudiantes para el futuro.</p>
+    </section>
+
+    <!-- Comentarios -->
+    <section id="comments" class="comments">
+        <h2>Comentarios</h2>
+        <div class="comments-form">
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="comment">Comentario:</label><br>
+                <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="gallery" class="gallery">
+        <h2>Galería de Fotos</h2>
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjUIhT7qnqJ7VwGyaXIICCmrAUJuwG6GxRiWfOZF_sKVeL8PYRDsNL6ieB7FMqCUSJ_1Hdd6INcvjnkxtC85bMBLlIs-81-Vlw87_jZbrHqKhL5YeoHHjyNwGTFSUdE75A52hYlyZ3ViBX_p0p6aTh81nYuworgaYoVIEYqT7DEIqV472HC0OhL-A2vjg=w1200-h630-p-k-no-nu" alt="Imagen 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfBVVZ_lfXcWg5k7SbgarJRhP1r62WKktvg&usqp=CAU" alt="Imagen 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPHR5tp2LaglWwbAbSiP-n5QuTRscu92Pjqg&usqp=CAU" alt="Imagen 3">
+    </section>
+</div>
+
+<footer>
+    <p>Conéctate con nosotros en <a href="https://m.facebook.com/100063559627992/" target="_blank" style="color: white;">Facebook</a></p>
+</footer>
+
+</body>
+</html>
